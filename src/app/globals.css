@@ -120,3 +120,12 @@
     @apply bg-background text-foreground;
   }
 }
+* {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+ 
+}
