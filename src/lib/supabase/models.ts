@@ -21,6 +21,7 @@ export type ColumnWithTasks = Column & {
   tasks: Task[];
 };
 
+
 export interface Task {
   id: string;
   column_id: string;
